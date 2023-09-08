@@ -1,0 +1,77 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+div{
+    text-align: center;
+}
+.odd{
+    background-color: aqua;
+}
+.mug{
+    width: 300px;
+    border: 10px solid skyblue;
+    border-radius: 10px;
+}
+.pictures img{
+    height: 300px;
+    width: auto;
+    border: 10px solid skyblue;
+    border-radius: 10px;
+}
+.pictures{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+   
+}
+.flexcoll{
+    display:flex;
+    width: 80%;
+    margin: auto;
+    margin-left: 10px;
+}
+.flexcoll p{
+    text-align: justify;
+    margin-left: 20px;
+}
+.flexcoll img{
+    border: 10px solid skyblue;
+    border-radius: 10px
+}
+.makanan{
+    text-align: left;
+    margin-left: 45%; 
+}
+.container{
+    display: flex;
+    justify-content: end;
+}
+nav{
+    margin-right: 25px;
+}
+.container nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+nav ul li{
+margin-left: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cadetblue;
+    font-weight: bold;
+}
+li a:hover{
+    color: aqua;
+    font-weight: 900;
+}
